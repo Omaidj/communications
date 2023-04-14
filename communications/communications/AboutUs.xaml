@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="communications.AboutUs"             
+             Title="About Us"
+             BackgroundColor="{StaticResource SecondaryColor}">
+    <ScrollView>
+        <StackLayout Padding="70" Spacing="20">
+            <Image Source="logo.png" Aspect="AspectFit" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" HeightRequest="200"/>
+            <Label Text="About Us" Style="{StaticResource HeadingLabel}" HorizontalTextAlignment="Center" FontSize="Large" Margin="0,20"/>
+            <!-- info here -->
+            <Label Text="This app is designed to allow users to communicate with each other. If you have any questions or feedback, please email me at Omaidj@outlook.com." Margin="20,20,20,0"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

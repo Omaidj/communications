@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="communications.MessageDetailsPage">
+    <!--this is the color resources for easy reuse throughout the page-->
+    <ContentPage.Resources>
+        <Color x:Key="PrimaryColor">#2196F3</Color>
+        <Color x:Key="SecondaryColor">#FFFFFF</Color>
+        <!--text color for all labels-->
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="{StaticResource PrimaryColor}" />
+        </Style>
+        <!--background and text color for all buttons-->
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="{StaticResource PrimaryColor}" />
+            <Setter Property="TextColor" Value="{StaticResource SecondaryColor}" />
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <!--stack layout for easy vertical stacking of elements-->
+        <StackLayout Margin="20">
+            <!--horizontal stack layouts for labels and their data-->
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Label Text="Sender ID:" />
+                <Label Text="{Binding SenderId}" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Label Text="Receiver ID:" />
+                <Label Text="{Binding ReceiverId}" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Label Text="Text:" />
+                <Label Text="{Binding Text}" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Label Text="Timestamp:" />
+                <Label Text="{Binding Timestamp}" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <!--button to delete the message-->
+                <Button Text="Delete Message" Clicked="OnDeleteClicked" />
+                <!--button to edit changes-->
+                <Button Text="Edit Message" Clicked="OnEditClicked" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

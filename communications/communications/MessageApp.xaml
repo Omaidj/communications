@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="communications.MessageApp">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="About" Clicked="OnAboutButtonClicked" />
+    </ContentPage.ToolbarItems>
+    <!--this is the background colour-->
+    <StackLayout BackgroundColor="#F5F5F5">
+     <!--this is the list of messages that the user can see, as well as changing the layout-->
+        <ListView x:Name="MessageListView"
+                  HasUnevenRows="True"
+                  SeparatorVisibility="None"
+                  BackgroundColor="Transparent"
+                  ItemTemplate="{StaticResource messageTemplate}" />
+        <!--this is the design of the text box colour seperating the messages and the textbox-->
+        <Grid Padding="10" BackgroundColor="#FFFFFF">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <!--this is the design of the grey colour backgroud of the text box-->
+            <BoxView Grid.Row="0" BackgroundColor="#EFEFEF" CornerRadius="10" />
+            <Grid Grid.Row="0" Padding="10" ColumnSpacing="10">
+                <!--this is the positioning of the textbox, button, and the blue circle(which i will add as a camera function)-->
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <!--Please add a camera function here-->
+                <BoxView Grid.Column="0" BackgroundColor="#007AFF" WidthRequest="30" HeightRequest="30" CornerRadius="15" VerticalOptions="Center" HorizontalOptions="Center" />
+                <!--this is the textbox to send messages-->
+                <Entry x:Name="MessageEntry" Grid.Column="1" BackgroundColor="#F5F5F5" Placeholder="Type a message" HeightRequest="70" />
+                <!--this is a button that send messages-->
+                <Button x:Name="SendMessageButton" Grid.Column="2" Text="Send" BackgroundColor="#007AFF" TextColor="#FFFFFF" HeightRequest="50" WidthRequest="80" Clicked="OnSendMessageClicked" />
+            </Grid>
+        </Grid>
+    </StackLayout>
+</ContentPage>

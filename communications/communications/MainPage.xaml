@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="communications.MainPage"
+             BackgroundColor="{StaticResource SecondaryColor}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Logout" Clicked="OnLogoutButtonClicked" />
+        <ToolbarItem Text="About Us" Clicked="OnAboutUsButtonClicked" />
+    </ContentPage.ToolbarItems>
+    <StackLayout Padding="30" Spacing="20" VerticalOptions="FillAndExpand">
+        <Label Text="User List" Style="{StaticResource HeadingLabel}" />
+        <SearchBar x:Name="UserSearchBar" Placeholder="Search users" TextChanged="OnSearchTextChanged" />
+        <ListView x:Name="UserListView" ItemSelected="OnUserSelected" VerticalOptions="FillAndExpand">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Username}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
+
+
+
