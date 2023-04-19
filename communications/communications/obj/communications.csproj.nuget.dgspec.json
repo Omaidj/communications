@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications\\communications.csproj": {}
+    "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications\\communications.csproj": {}
   },
   "projects": {
-    "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications\\communications.csproj": {
+    "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications\\communications.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications\\communications.csproj",
+        "projectUniqueName": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications\\communications.csproj",
         "projectName": "communications",
-        "projectPath": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications\\communications.csproj",
+        "projectPath": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications\\communications.csproj",
         "packagesPath": "C:\\Users\\omaid\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications\\obj\\",
         "projectStyle": "PackageReference",

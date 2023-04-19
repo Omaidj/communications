@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -66,5 +66,17 @@ namespace communications
                 await DisplayAlert("Success", "Message updated successfully.", "OK");
             }
         }
+        private async void OnShareClicked(object sender, EventArgs e)
+        {
+            var selectedMessage = BindingContext as Message;
+            if (selectedMessage == null)
+                return;
+
+            await Share.RequestAsync(new ShareTextRequest
+            {
+                Text = selectedMessage.Text,
+                Title = "Share Message"
+            });
         }
+    }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications.iOS\\communications.iOS.csproj": {}
+    "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications.iOS\\communications.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications.iOS\\communications.iOS.csproj": {
+    "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications.iOS\\communications.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications.iOS\\communications.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications.iOS\\communications.iOS.csproj",
         "projectName": "communications.iOS",
-        "projectPath": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications.iOS\\communications.iOS.csproj",
+        "projectPath": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications.iOS\\communications.iOS.csproj",
         "packagesPath": "C:\\Users\\omaid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications.iOS\\obj\\",
+        "outputPath": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications\\communications.csproj": {
-                "projectPath": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications\\communications.csproj"
+              "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications\\communications.csproj": {
+                "projectPath": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications\\communications.csproj"
               }
             }
           }
@@ -65,12 +65,12 @@
         }
       }
     },
-    "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications\\communications.csproj": {
+    "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications\\communications.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications\\communications.csproj",
+        "projectUniqueName": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications\\communications.csproj",
         "projectName": "communications",
-        "projectPath": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications\\communications.csproj",
+        "projectPath": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications\\communications.csproj",
         "packagesPath": "C:\\Users\\omaid\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications\\obj\\",
         "projectStyle": "PackageReference",

@@ -1592,11 +1592,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications.iOS\\communications.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications.iOS\\communications.iOS.csproj",
       "projectName": "communications.iOS",
-      "projectPath": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications.iOS\\communications.iOS.csproj",
+      "projectPath": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications.iOS\\communications.iOS.csproj",
       "packagesPath": "C:\\Users\\omaid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications.iOS\\obj\\",
+      "outputPath": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1617,8 +1617,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications\\communications.csproj": {
-              "projectPath": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications\\communications.csproj"
+            "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications\\communications.csproj": {
+              "projectPath": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications\\communications.csproj"
             }
           }
         }

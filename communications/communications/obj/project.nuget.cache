@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k8PV/RrVMD4qvpolQEW67r/9+gbQYM89ZqJkmfVSTjNSxuxUj5DsQAGgxpSpadAqhQtR4Av5n6OYPdYJBh65lQ==",
+  "dgSpecHash": "/B3hPOkBRLZisxFmSOriMhndvLAwlt9g4x7rT/gZ77u3KZQT27PKIhCSLjcnOlhdu/y3baEAOCVC5dD+j5g9iQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications\\communications.csproj",
+  "projectFilePath": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications\\communications.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\omaid\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\omaid\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

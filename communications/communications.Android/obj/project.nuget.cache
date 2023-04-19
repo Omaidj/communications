@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C20Rzgz6Mn/sOFuyhZg508FMs1GHztpt9pc1qN/hoUmvDNtMuyxAyhFx1wkDaxyJ2Tf9u4eGVuIxdFDylGivlA==",
+  "dgSpecHash": "EMaVApJjZyzuyThwpmWyTEpgqKhunFT1glfJOO1GTXViPJcrfCcHZZpDnhCgRjFc7QUoHKn+eD4rj2vpyqe7DA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications.Android\\communications.Android.csproj",
+  "projectFilePath": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications.Android\\communications.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\omaid\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\omaid\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",

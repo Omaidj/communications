@@ -41,6 +41,8 @@
                 <Button Text="Delete Message" Clicked="OnDeleteClicked" />
                 <!--button to edit changes-->
                 <Button Text="Edit Message" Clicked="OnEditClicked" />
+                <!--Share message-->
+                <Button Text="Share" Clicked="OnShareClicked"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

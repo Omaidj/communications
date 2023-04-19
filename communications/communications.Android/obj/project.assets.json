@@ -3665,11 +3665,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications.Android\\communications.Android.csproj",
+      "projectUniqueName": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications.Android\\communications.Android.csproj",
       "projectName": "communications.Android",
-      "projectPath": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications.Android\\communications.Android.csproj",
+      "projectPath": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications.Android\\communications.Android.csproj",
       "packagesPath": "C:\\Users\\omaid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications.Android\\obj\\",
+      "outputPath": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3690,8 +3690,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications\\communications.csproj": {
-              "projectPath": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications\\communications.csproj"
+            "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications\\communications.csproj": {
+              "projectPath": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications\\communications.csproj"
             }
           }
         }

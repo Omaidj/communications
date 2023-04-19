@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications.Android\\communications.Android.csproj": {}
+    "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications.Android\\communications.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications.Android\\communications.Android.csproj": {
+    "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications.Android\\communications.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications.Android\\communications.Android.csproj",
+        "projectUniqueName": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications.Android\\communications.Android.csproj",
         "projectName": "communications.Android",
-        "projectPath": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications.Android\\communications.Android.csproj",
+        "projectPath": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications.Android\\communications.Android.csproj",
         "packagesPath": "C:\\Users\\omaid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications.Android\\obj\\",
+        "outputPath": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid13.0": {
             "projectReferences": {
-              "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications\\communications.csproj": {
-                "projectPath": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications\\communications.csproj"
+              "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications\\communications.csproj": {
+                "projectPath": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications\\communications.csproj"
               }
             }
           }
@@ -54,12 +54,12 @@
         }
       }
     },
-    "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications\\communications.csproj": {
+    "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications\\communications.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications\\communications.csproj",
+        "projectUniqueName": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications\\communications.csproj",
         "projectName": "communications",
-        "projectPath": "C:\\Users\\omaid\\Desktop\\communications\\communications\\communications\\communications.csproj",
+        "projectPath": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications\\communications.csproj",
         "packagesPath": "C:\\Users\\omaid\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\omaid\\Desktop\\Communications\\communications\\communications\\obj\\",
         "projectStyle": "PackageReference",
