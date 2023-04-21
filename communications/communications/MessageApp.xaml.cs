@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
 
 
 namespace communications
@@ -58,10 +59,14 @@ namespace communications
                 // Clear the message entry field
                 MessageEntry.Text = string.Empty;
 
+                // Create a notification that the message has been sent
+                DependencyService.Get<INotificationService>().ShowNotification("Message Sent", "Your message has been sent.");
+
                 // Refresh the conversation
                 LoadConversation();
             }
         }
+
 
         private async void OnMessageSelected(object sender, SelectedItemChangedEventArgs e)
         {

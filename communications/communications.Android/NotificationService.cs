@@ -1,17 +1,36 @@
 ﻿using Android.App;
 using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using Android.Support.V4.App;
+using communications.Droid.Services;
+using communications.Droid;
+using Xamarin.Forms;
+using AndroidX.Core.App;
 
-namespace communications.Droid
+[assembly: Dependency(typeof(NotificationService))]
+namespace communications.Droid.Services
 {
-    internal class NotificationService
+    public class NotificationService : INotificationService
     {
+        private const string ChannelId = "default";
+
+        public void ShowNotification(string title, string message)
+        {
+            var notificationManager = (NotificationManager)Forms.Context.GetSystemService(Context.NotificationService);
+
+            if (Build.VERSION.SdkInt >= BuildVersionCodes.O)
+            {
+                var channel = new NotificationChannel(ChannelId, "Default", NotificationImportance.Default);
+                notificationManager.CreateNotificationChannel(channel);
+            }
+
+            var notificationBuilder = new NotificationCompat.Builder(Forms.Context, ChannelId)
+                .SetContentTitle(title)
+                .SetContentText(message)
+                .SetSmallIcon(Resource.Drawable.logo);
+
+            var notification = notificationBuilder.Build();
+            notificationManager.Notify(0, notification);
+        }
     }
 }

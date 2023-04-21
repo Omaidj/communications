@@ -4,7 +4,8 @@ using System.Text;
 
 namespace communications
 {
-    internal interface INotificationService
+    public interface INotificationService
     {
+        void ShowNotification(string title, string message);
     }
 }
