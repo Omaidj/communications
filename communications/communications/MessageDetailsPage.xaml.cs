@@ -72,6 +72,13 @@ namespace communications
             if (selectedMessage == null)
                 return;
 
+
+            if (selectedMessage.ImageData != null)
+            {
+                await DisplayAlert("Error", "Unfortunately you cannot share images", "OK");
+                return;
+            }
+
             await Share.RequestAsync(new ShareTextRequest
             {
                 Text = selectedMessage.Text,

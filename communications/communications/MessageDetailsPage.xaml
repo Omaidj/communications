@@ -36,6 +36,10 @@
                 <Label Text="Timestamp:" />
                 <Label Text="{Binding Timestamp}" />
             </StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="10" HeightRequest="200">
+                <Label Text="Image:" />
+                <Image Source="{Binding ImageData, Converter={StaticResource BytesToImageConverter}}" />
+            </StackLayout>
             <StackLayout Orientation="Horizontal" Spacing="10">
                 <!--button to delete the message-->
                 <Button Text="Delete Message" Clicked="OnDeleteClicked" />
