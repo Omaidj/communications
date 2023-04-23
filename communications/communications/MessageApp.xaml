@@ -29,7 +29,7 @@
                     <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
                 <!--Please add a camera function here-->
-                <BoxView Grid.Column="0" BackgroundColor="#007AFF" WidthRequest="30" HeightRequest="30" CornerRadius="15" VerticalOptions="Center" HorizontalOptions="Center" />
+                <Button x:Name="CameraButton" Grid.Column="0" Text="📷" BackgroundColor="#007AFF" TextColor="#FFFFFF" HeightRequest="50" WidthRequest="80"  CornerRadius="35" Clicked="OnCameraButtonClicked" />
                 <!--this is the textbox to send messages-->
                 <Entry x:Name="MessageEntry" Grid.Column="1" BackgroundColor="#F5F5F5" Placeholder="Type a message" HeightRequest="70" />
                 <!--this is a button that send messages-->

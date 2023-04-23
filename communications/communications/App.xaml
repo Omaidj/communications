@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="communications.App">
+             x:Class="communications.App"
+             xmlns:local="clr-namespace:communications">
     <Application.Resources>
         
             <ResourceDictionary>
-        <Color x:Key="PrimaryColor">#1976D2</Color>
+            <local:BytesToImageConverter x:Key="BytesToImageConverter" />
+            <Color x:Key="PrimaryColor">#1976D2</Color>
         <Color x:Key="SecondaryColor">#BBDEFB</Color>
         <Color x:Key="TextColor">#FFFFFF</Color>
         
@@ -35,15 +37,17 @@
         </ResourceDictionary>
         
         <!--message template-->
-            <DataTemplate x:Key="messageTemplate">
+        <DataTemplate x:Key="messageTemplate">
             <ViewCell>
                 <StackLayout Padding="10">
                     <Label Text="{Binding Text}" FontSize="16" />
+                    <Image Source="{Binding ImageData, Converter={StaticResource BytesToImageConverter}}" />
                 </StackLayout>
             </ViewCell>
         </DataTemplate>
-        
-        
+
+
+
     </Application.Resources>
 
 </Application>

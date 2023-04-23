@@ -59,7 +59,7 @@ namespace communications
                 // Clear the message entry field
                 MessageEntry.Text = string.Empty;
 
-                // Create a notification that the message has been sent
+                // A notification that the message has been sent
                 DependencyService.Get<INotificationService>().ShowNotification("Message Sent", "Your message has been sent.");
 
                 // Refresh the conversation
@@ -83,6 +83,29 @@ namespace communications
             await Navigation.PushAsync(new MessageDetailsPage(selectedMessage, _messageRepository, _currentUserId));
         }
 
+        private async void OnCameraButtonClicked(object sender, EventArgs e)
+        {
+            var photo = await MediaPicker.CapturePhotoAsync();
+            var imageStream = await photo.OpenReadAsync();
+            var imageData = new byte[imageStream.Length];
+            await imageStream.ReadAsync(imageData, 0, imageData.Length);
+
+            var message = new Message
+            {
+                SenderId = _currentUserId,
+                ReceiverId = _selectedUserId,
+                ImageData = imageData,
+                Timestamp = DateTime.Now
+            };
+
+            await _messageRepository.SendMessageAsync(message);
+
+            // A notification that the message has been sent
+            DependencyService.Get<INotificationService>().ShowNotification("Message Sent", "Your message has been sent.");
+
+            // Refresh the conversation
+            LoadConversation();
+        }
 
 
 
