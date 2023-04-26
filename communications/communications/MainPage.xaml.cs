@@ -74,6 +74,23 @@ namespace communications
             await Navigation.PushAsync(new AboutUs());
         }
 
+        private async void OnSwipeRight(object sender, SwipedEventArgs e)
+        {
+            bool answer = await DisplayAlert("Confirm", "You are about to navigate to the About Us page. Wanna see something cool", "Yes", "No");
+            if (answer)
+            {
+                //  this will rotate the User List text slightly 
+                await UserListView.FindByName<Label>("UserListLabel").RotateTo(-50, 100);
+
+                // Navigate to the AboutUs page
+                await Navigation.PushAsync(new AboutUs());
+            }
+            else
+            {
+                // this will rotate the User List text by 90 degrees
+                await UserListView.FindByName<Label>("UserListLabel").RotateTo(50, 500);
+            }
+        }
     }
 }
 
