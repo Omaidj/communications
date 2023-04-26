@@ -1,0 +1,3 @@
+C:\Users\omaid\Desktop\Communications\MessageAppTest\obj\Debug\MessageAppTest.csproj.AssemblyReference.cache
+C:\Users\omaid\Desktop\Communications\MessageAppTest\obj\Debug\MessageAppTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\omaid\Desktop\Communications\MessageAppTest\obj\Debug\MessageAppTest.csproj.CoreCompileInputs.cache
